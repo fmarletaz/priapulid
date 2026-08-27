@@ -1,0 +1,14 @@
+
+                                          n   recovered       %   95% CI
+retained (leave-one-out)               7589        7079    93.3   92.7-93.8
+lost, any hit                          4139        2818    68.1
+lost, above calibrated threshold       4139        1666    40.3
+
+of those above threshold, the recovered gene was:
+  unassigned to any family (= HDF)          1666
+  already in another family (paralogue)        0
+  already in the same family (inconsistent)     0
+
+threshold = 89.2 bits (95% recovery of retained families)
+detection sensitivity in this lineage = 93.3%
+inferred losses attributable to HDF = 1666 of 4139 (40.3%, 95% CI 38.8-41.8)
