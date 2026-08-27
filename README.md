@@ -1,5 +1,7 @@
 # Datasets and code for the priapulid genome manuscript
 
+[![DOI](https://zenodo.org/badge/1186296803.svg)](https://doi.org/10.5281/zenodo.22126220)
+
 This repository contains the datasets and code used to analyse the priapulid genomes and to
 generate the figures of the manuscript.
 
