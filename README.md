@@ -5,6 +5,15 @@
 This repository contains the datasets and code used to analyse the priapulid genomes and to
 generate the figures of the manuscript.
 
+## Genomes
+
+The genome assemblies and annotations of Priapulus caudatus and Halicryptus spinulosus are archived separately on Zenodo: https://doi.org/10.5281/zenodo.23816228
+
+The archive (genomes.zip) contains, for each species, the genome assembly (FASTA), the gene annotation (GTF), protein and CDS sequences, and the repeat annotation (BED). To reproduce the analyses, download it and unzip it into a genomes/ folder at the root of this repository.
+
+Raw sequencing data are available from NCBI under BioProject PRJNA1365737 (P. caudatus assembly: GenBank JCEMDT000000000), and RNA-seq and EM-seq data from GEO under GSE324316.
+
+
 ## Synteny and ancestral linkage groups
 
 `synteny` contains the files used for the dotplots and the ancestral linkage group
