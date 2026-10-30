@@ -5,25 +5,6 @@
 This repository contains the datasets and code used to analyse the priapulid genomes and to
 generate the figures of the manuscript.
 
-## Genomes
-
-`genomes` holds the primary datasets.
-
-*Priapulus caudatus*
-
-- `PriCau_v1.fa.gz` — genome assembly after Hi-C scaffolding, with scaffolds renamed as chromosomes
-- `PriCau_v1_ahfp.gtf.gz` — genome annotation
-- `PriCau_v1.rep.bed` — location of annotated repeats
-- `PriCau_v1_ahfp.cds` — CDS sequences (FASTA)
-- `PriCau_v1_ahfp.pep` — peptides
-
-*Halicryptus spinulosus*
-
-- `Hali_chhp_rn.fasta.gz` — genome assembly
-- `Hspi.aug.AGAT.rn.gtf.gz` — genome annotation, protein-coding genes (GTF)
-- `Hspi_aug_agat.pep` — peptides
-- `Hali_chhp_rn.rep.bed` — location of annotated repeats
-
 ## Synteny and ancestral linkage groups
 
 `synteny` contains the files used for the dotplots and the ancestral linkage group
